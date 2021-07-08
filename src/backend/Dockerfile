@@ -1,4 +1,4 @@
-FROM node:12.16.2-alpine AS base
+FROM node:erbium-alpine3.11 AS base
 FROM base AS build
 
 WORKDIR /www
